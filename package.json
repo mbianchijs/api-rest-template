@@ -1,0 +1,29 @@
+{
+  "name": "api-rest-template",
+  "version": "1.0.0",
+  "description": "api-rest-template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbianchijs/api-rest-template.git"
+  },
+  "keywords": [
+    "api-rest-template",
+    "api-rest",
+    "rest"
+  ],
+  "author": "Jose Martinez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mbianchijs/api-rest-template/issues"
+  },
+  "homepage": "https://github.com/mbianchijs/api-rest-template#readme",
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
