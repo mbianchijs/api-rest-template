@@ -1,4 +1,5 @@
 const express = require('express');
+const rutas = require('../routes');
 
 class Server {
 
@@ -6,6 +7,13 @@ class Server {
 
         this.app = express();
         this.port = process.env.PORT;
+
+        // Rutas de la aplicación
+        this.routes();
+    }
+
+    routes() {
+        this.app.use('/', rutas);
     }
 
     listen() {
